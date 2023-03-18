@@ -36,7 +36,7 @@
         android:layout_height="59dp"
         android:layout_marginStart="40dp"
         android:backgroundTint="@color/white"
-        android:onClick="MCOne"
+        android:onClick="Rus"
         android:text="@string/Russia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
         android:layout_height="59dp"
         android:layout_marginEnd="44dp"
         android:backgroundTint="@color/white"
-        android:onClick="MCTwo"
+        android:onClick="Saud"
         android:text="@string/SA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,21 +71,21 @@
         app:layout_constraintVertical_bias="0.699" />
 
     <TextView
-        android:id="@+id/MC1"
+        android:id="@+id/RUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         android:textColor="@color/black"
         android:textSize="50dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/Tochki"
+        app:layout_constraintEnd_toStartOf="@id/Thck"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.45" />
 
     <TextView
-        android:id="@+id/MC2"
+        android:id="@+id/AR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -94,12 +94,12 @@
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toEndOf="@+id/Tochki"
+        app:layout_constraintStart_toEndOf="@id/Thck"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.45" />
 
     <TextView
-        android:id="@+id/Tochki"
+        android:id="@+id/Thck"
         android:layout_width="10dp"
         android:layout_height="73dp"
         android:layout_marginBottom="32dp"
@@ -118,7 +118,7 @@
         android:text="VS"
         android:textColor="@color/black"
         android:textSize="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/Tochki"
+        app:layout_constraintBottom_toTopOf="@id/Thck"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toEndOf="@+id/imageView"

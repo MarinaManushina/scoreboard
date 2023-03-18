@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Integer SA = 0;
 
     @Override
-    protected void onSaveInstanceState(@NonNull Bundle outState) {
+    protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt(Key, Russia);
         outState.putInt(Key2, SA);}
@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
         Russia = savedInstanceState.getInt(Key);
         SA = savedInstanceState.getInt(Key2);
-        TextView counterView = findViewById(R.id.Russia);
-        TextView countView = findViewById(R.id.SA);
+        TextView counterView = findViewById(R.id.RUs);
+        TextView countView = findViewById(R.id.AR);
         counterView.setText(Russia.toString());
         countView.setText(SA.toString());}
 
@@ -37,21 +37,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void MCOne(View view) {
+    public void Rus(View view) {
         Russia++;
-        TextView counterView = findViewById(R.id.Russia);
+        TextView counterView = findViewById(R.id.RUs);
         counterView.setText(Russia.toString());
     }
-    public void MCTwo(View view) {
+    public void Saud(View view) {
         SA++;
-        TextView countView = findViewById(R.id.SA);
+        TextView countView = findViewById(R.id.AR);
         countView.setText(SA.toString());
     }
     public void Delete(View view) {
         Russia = 0;
         SA = 0;
-        TextView counterView = findViewById(R.id.Russia);
-        TextView countView = findViewById(R.id.SA);
+        TextView counterView = findViewById(R.id.RUs);
+        TextView countView = findViewById(R.id.AR);
         counterView.setText(Russia.toString());
         countView.setText(SA.toString());}
 }

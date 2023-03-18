@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name" translatable="false">scoreboard</string>
-    <string name="Russia" translatable="false">Россия</string>
-    <string name="SA" translatable="false">Саудовская аравия</string>
-    <string name="delete" translatable="false">Обнулить</string>
-    <string name="championship" translatable="false">Чемпионат</string>
+    <string name="app_name">scoreboard</string>
+    <string name="Russia">Россия</string>
+    <string name="SA">Саудовская аравия</string>
+    <string name="delete">Обнулить</string>
+    <string name="championship">Чемпионат</string>
 </resources>
